@@ -37,3 +37,7 @@ DEFAULT_PAGINATION = False
 # Specify name of a built-in theme
 THEME = "medius"
 
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATH = './plugins'
+PLUGINS = ['ipynb']
