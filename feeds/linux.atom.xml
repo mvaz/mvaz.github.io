@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Brain log</title><link href="/" rel="alternate"></link><link href="/feeds/linux.atom.xml" rel="self"></link><id>/</id><updated>2011-11-10T10:20:00+01:00</updated><entry><title>Preparing for GuruPlug</title><link href="/preparing-for-guruplug.html" rel="alternate"></link><updated>2011-11-10T10:20:00+01:00</updated><author><name>Miguel Vaz</name></author><id>tag:,2011-11-10:preparing-for-guruplug.html</id><summary type="html">&lt;p&gt;According to news from the guys at &lt;a href="http://www.newit.co.uk/forum/index.php/topic,323.msg1595.html"&gt;NewIT&lt;/a&gt;, I'll probably be receiving my &lt;a href="http://www.globalscaletechnologies.com/t-guruplugdetails.aspx"&gt;GuruPlug Server&lt;/a&gt; in the next days! Yeah!!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Brain log</title><link href="/" rel="alternate"></link><link href="/feeds/linux.atom.xml" rel="self"></link><id>/</id><updated>2012-11-23T10:20:00+01:00</updated><entry><title>GuruPlug heat issues</title><link href="/guruplug-heat-issues.html" rel="alternate"></link><updated>2012-11-23T10:20:00+01:00</updated><author><name>Miguel Vaz</name></author><id>tag:,2012-11-23:guruplug-heat-issues.html</id><summary type="html">&lt;p&gt;My GuruPlug has arrived! Yay!
+Soon I'll be replacing my NSLU2 with it, but some clouds are shadowing the horizon.
+I didn't have the time to set it up.
+Debian 5.03 (lenny) is pre-installed, but only on the device's flash, whose 512MB will probably not suffice to all I want it to do.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;
+Leporello:~$ ssh root@192.168.1.1
+root@192.168.1.1's password: 
+Linux sheevaplug-debian 2.6.32-00007-g56678ec #1 PREEMPT Mon Feb 8 03:49:55 PST 2010 armv5tel&lt;/p&gt;
+&lt;p&gt;The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.&lt;/p&gt;
+&lt;p&gt;Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Jan  1 09:19:04 2010 from 192.168.0.2
+sheevaplug-debian:~# uname -a
+Linux sheevaplug-debian 2.6.32-00007-g56678ec #1 PREEMPT Mon Feb 8 03:49:55 PST 2010 armv5tel GNU/Linux
+sheevaplug-debian:~# cat /etc/debian_version 
+5.0.3
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Sad thing is, I don't have the time to make all the decisions I need, like "do I need to update U-BOOT?" or "Better to install from scratch or take the
+already working Debian installation on my Slug?", like &lt;a href="http://www.cyrius.com/debian/nslu2/sheevaplug-migration.html"&gt;Martin Michlmayr&lt;/a&gt; suggests?&lt;/p&gt;
+&lt;p&gt;On top of that, many users are reporting heat issues, with their GuruPlug Plus even stopping to work with gigabit ethernet plugged in (the photos are very impressive).&lt;/p&gt;
+&lt;p&gt;http://plugcomputer.org/plugforum/index.php?topic=1735.60&lt;/p&gt;
+&lt;p&gt;http://www.sheevaplug.de/forum/35-hardware/1744-thermische-probleme.html&lt;/p&gt;
+&lt;p&gt;New IT is &lt;a href="http://www.newit.co.uk/forum/index.php/topic,419.0.html"&gt;suggesting&lt;/a&gt; that people stick to 100MB ethernet (wish would mean that I'm on the clear side with
+my non-Gb GuruPlug Standard), but it is &lt;a href="http://www.newit.co.uk/forum/index.php/topic,423.0.html"&gt;not a safe solution&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Problems in the components and the montage seem to be the cause as the pictures &lt;a href="http://guruplug.daloo.de"&gt;here&lt;/a&gt; document.
+Anyway, my first test will simply be to turn it on for a couple of days.
+If it's safe, I'll proceed... otherwise have to choose between sending it back to NewIT, selling it, or hacking it.&lt;/p&gt;</summary></entry><entry><title>Preparing for GuruPlug</title><link href="/preparing-for-guruplug.html" rel="alternate"></link><updated>2011-11-10T10:20:00+01:00</updated><author><name>Miguel Vaz</name></author><id>tag:,2011-11-10:preparing-for-guruplug.html</id><summary type="html">&lt;p&gt;According to news from the guys at &lt;a href="http://www.newit.co.uk/forum/index.php/topic,323.msg1595.html"&gt;NewIT&lt;/a&gt;, I'll probably be receiving my &lt;a href="http://www.globalscaletechnologies.com/t-guruplugdetails.aspx"&gt;GuruPlug Server&lt;/a&gt; in the next days! Yeah!!
 I've been using a NSLU2 with Debian over the last years for video streaming, file sharing and torrent downloading (only legal ones, of course).&lt;/p&gt;
 &lt;p&gt;The GuruPlug has a bit more horsepower to offer, which not only means that there will be much less stuttering with videos, but also that more functionalities could be added.
 A lot of possibilities come to mind, from coupling to home automation or monitoring applications, a webcam, or, 
