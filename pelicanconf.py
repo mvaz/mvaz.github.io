@@ -67,10 +67,11 @@ MEDIUS_AUTHORS = {
         'description': """
             Jack of some trades.
         """,
-        'cover': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Milky_Way_Arch.jpg/1920px-Milky_Way_Arch.jpg',
+        'cover': 'network_layout.jpg', #https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Milky_Way_Arch.jpg/1920px-Milky_Way_Arch.jpg',
         'image': 'https://lh6.googleusercontent.com/-zEMaXmWAhdI/AAAAAAAAAAI/AAAAAAAAAAA/eVdgsm3TIDU/s128-c-k/photo.jpg',
         'links': (('github-square', 'https://github.com/mvaz'),
                   ('twitter-square', 'https://twitter.com/migueljvaz'),
+                  ('linkedin-square', "https://www.linkedin.com/profile/view?id=AAIAAACMwk8BwWscmurQkk9sNRr_eNegoexS6cA&trk=nav_responsive_tab_profile"),
                   ('envelope-square', '#')),
     }
 }
