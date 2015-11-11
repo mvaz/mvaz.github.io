@@ -138,4 +138,55 @@ $$x = x + 1$$&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</summary></entry></feed>
+</summary></entry><entry><title>GuruPlug heat issues</title><link href="/guruplug-heat-issues.html" rel="alternate"></link><updated>2012-11-23T10:20:00+01:00</updated><author><name>Miguel Vaz</name></author><id>tag:,2012-11-23:guruplug-heat-issues.html</id><summary type="html">&lt;p&gt;My GuruPlug has arrived! Yay!
+Soon I'll be replacing my NSLU2 with it, but some clouds are shadowing the horizon.
+I didn't have the time to set it up.
+Debian 5.03 (lenny) is pre-installed, but only on the device's flash, whose 512MB will probably not suffice to all I want it to do.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;
+Leporello:~$ ssh root@192.168.1.1
+root@192.168.1.1's password: 
+Linux sheevaplug-debian 2.6.32-00007-g56678ec #1 PREEMPT Mon Feb 8 03:49:55 PST 2010 armv5tel&lt;/p&gt;
+&lt;p&gt;The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.&lt;/p&gt;
+&lt;p&gt;Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Jan  1 09:19:04 2010 from 192.168.0.2
+sheevaplug-debian:~# uname -a
+Linux sheevaplug-debian 2.6.32-00007-g56678ec #1 PREEMPT Mon Feb 8 03:49:55 PST 2010 armv5tel GNU/Linux
+sheevaplug-debian:~# cat /etc/debian_version 
+5.0.3
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Sad thing is, I don't have the time to make all the decisions I need, like "do I need to update U-BOOT?" or "Better to install from scratch or take the
+already working Debian installation on my Slug?", like &lt;a href="http://www.cyrius.com/debian/nslu2/sheevaplug-migration.html"&gt;Martin Michlmayr&lt;/a&gt; suggests?&lt;/p&gt;
+&lt;p&gt;On top of that, many users are reporting heat issues, with their GuruPlug Plus even stopping to work with gigabit ethernet plugged in (the photos are very impressive).&lt;/p&gt;
+&lt;p&gt;http://plugcomputer.org/plugforum/index.php?topic=1735.60&lt;/p&gt;
+&lt;p&gt;http://www.sheevaplug.de/forum/35-hardware/1744-thermische-probleme.html&lt;/p&gt;
+&lt;p&gt;New IT is &lt;a href="http://www.newit.co.uk/forum/index.php/topic,419.0.html"&gt;suggesting&lt;/a&gt; that people stick to 100MB ethernet (wish would mean that I'm on the clear side with
+my non-Gb GuruPlug Standard), but it is &lt;a href="http://www.newit.co.uk/forum/index.php/topic,423.0.html"&gt;not a safe solution&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Problems in the components and the montage seem to be the cause as the pictures &lt;a href="http://guruplug.daloo.de"&gt;here&lt;/a&gt; document.
+Anyway, my first test will simply be to turn it on for a couple of days.
+If it's safe, I'll proceed... otherwise have to choose between sending it back to NewIT, selling it, or hacking it.&lt;/p&gt;</summary></entry><entry><title>First post or blogging from TextMate</title><link href="/first-post-or-blogging-from-textmate.html" rel="alternate"></link><updated>2011-11-23T10:20:00+01:00</updated><author><name>Miguel Vaz</name></author><id>tag:,2011-11-23:first-post-or-blogging-from-textmate.html</id><summary type="html">&lt;p&gt;I used to have a Wordpress blog, bug soon got tired of all its features.
+It's too bloated for my taste, and wouldn't blend in with a normal website, which is what I'd like to embed this blog into,
+as &lt;a href="http://adrifolio.tumblr.com/post/487702548/how-to-embed-tumblr-on-your-website-and-customize-it"&gt;Adrifolio&lt;/a&gt; explains.
+So this is why I'm using &lt;strong&gt;tumblr&lt;/strong&gt; now.&lt;/p&gt;
+&lt;p&gt;I'm still setting up the environment, syntax highlighting still broken in &lt;a href="http://macromates.com"&gt;TextMate&lt;/a&gt;, and not getting the same nice preview results as &lt;a href="http://blog.timgourley.com/post/469491122/tumblr-from-textmate"&gt;timgurley&lt;/a&gt;.
+Maybe if I write the posts in &lt;em&gt;HTML&lt;/em&gt;, but was thinking of using &lt;em&gt;Markdown&lt;/em&gt; for the moment.
+Anyway, kudos to &lt;a href="http://mwunsch.tumblr.com/post/441371943/tumblr-rb"&gt;mwunsch&lt;/a&gt;, because the ruby &lt;a href="http://github.com/mwunsch/tumblr"&gt;gem&lt;/a&gt; is pretty cool and easy to use.&lt;/p&gt;</summary></entry><entry><title>Preparing for GuruPlug</title><link href="/preparing-for-guruplug.html" rel="alternate"></link><updated>2011-11-10T10:20:00+01:00</updated><author><name>Miguel Vaz</name></author><id>tag:,2011-11-10:preparing-for-guruplug.html</id><summary type="html">&lt;p&gt;According to news from the guys at &lt;a href="http://www.newit.co.uk/forum/index.php/topic,323.msg1595.html"&gt;NewIT&lt;/a&gt;, I'll probably be receiving my &lt;a href="http://www.globalscaletechnologies.com/t-guruplugdetails.aspx"&gt;GuruPlug Server&lt;/a&gt; in the next days! Yeah!!
+I've been using a NSLU2 with Debian over the last years for video streaming, file sharing and torrent downloading (only legal ones, of course).&lt;/p&gt;
+&lt;p&gt;The GuruPlug has a bit more horsepower to offer, which not only means that there will be much less stuttering with videos, but also that more functionalities could be added.
+A lot of possibilities come to mind, from coupling to home automation or monitoring applications, a webcam, or, 
+most appealing to me, to adding video output and connect it the TV, where browsing the web would be possible.&lt;/p&gt;
+&lt;p&gt;Someone has already done this, using an usb2vga adaptor and recompiling the kernel with support for the necessary modules, but has offered little specs of the process.&lt;/p&gt;
+&lt;p&gt;&lt;object width="480" height="385"&gt;
+&lt;param name="movie" value="http://www.youtube-nocookie.com/v/xClCWZ9Nv0A&amp;hl=en_US&amp;fs=1&amp;"&gt;&lt;/param&gt;
+&lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt;
+&lt;embed src="http://www.youtube-nocookie.com/v/xClCWZ9Nv0A&amp;hl=en_US&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"&gt;
+&lt;/embed&gt;
+&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;Also because of this, other people have failed in getting that to work, which is a most definite turn-off.&lt;/p&gt;
+&lt;p&gt;http://plugcomputer.org/plugforum/index.php?topic=412.0&lt;/p&gt;
+&lt;p&gt;http://www.linux.com/community/forums?func=view&amp;amp;catid=25&amp;amp;id=2901&lt;/p&gt;
+&lt;p&gt;But first things first.
+Need to see how good the Debian installation that's supposed to come wuth the device is, and maybe move to an USB stick.&lt;/p&gt;</summary></entry><entry><title>Setting up WD TV Live HD</title><link href="/setting-up-wd-tv-live-hd.html" rel="alternate"></link><updated>2011-11-10T10:20:00+01:00</updated><author><name>Miguel Vaz</name></author><id>tag:,2011-11-10:setting-up-wd-tv-live-hd.html</id><summary type="html">&lt;p&gt;Mediatomb OK(?).&lt;/p&gt;
+&lt;p&gt;TwonkyMedia also ?&lt;/p&gt;</summary></entry></feed>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Brain log</title><link href="/" rel="alternate"></link><link href="/feeds/guruplug-linux.atom.xml" rel="self"></link><id>/</id><updated>2011-11-10T10:20:00+01:00</updated><entry><title>Preparing for GuruPlug</title><link href="/preparing-for-guruplug.html" rel="alternate"></link><updated>2011-11-10T10:20:00+01:00</updated><author><name>Miguel Vaz</name></author><id>tag:,2011-11-10:preparing-for-guruplug.html</id><summary type="html">&lt;p&gt;According to news from the guys at &lt;a href="http://www.newit.co.uk/forum/index.php/topic,323.msg1595.html"&gt;NewIT&lt;/a&gt;, I'll probably be receiving my &lt;a href="http://www.globalscaletechnologies.com/t-guruplugdetails.aspx"&gt;GuruPlug Server&lt;/a&gt; in the next days! Yeah!!
+I've been using a NSLU2 with Debian over the last years for video streaming, file sharing and torrent downloading (only legal ones, of course).&lt;/p&gt;
+&lt;p&gt;The GuruPlug has a bit more horsepower to offer, which not only means that there will be much less stuttering with videos, but also that more functionalities could be added.
+A lot of possibilities come to mind, from coupling to home automation or monitoring applications, a webcam, or, 
+most appealing to me, to adding video output and connect it the TV, where browsing the web would be possible.&lt;/p&gt;
+&lt;p&gt;Someone has already done this, using an usb2vga adaptor and recompiling the kernel with support for the necessary modules, but has offered little specs of the process.&lt;/p&gt;
+&lt;p&gt;&lt;object width="480" height="385"&gt;
+&lt;param name="movie" value="http://www.youtube-nocookie.com/v/xClCWZ9Nv0A&amp;hl=en_US&amp;fs=1&amp;"&gt;&lt;/param&gt;
+&lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt;
+&lt;embed src="http://www.youtube-nocookie.com/v/xClCWZ9Nv0A&amp;hl=en_US&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"&gt;
+&lt;/embed&gt;
+&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;Also because of this, other people have failed in getting that to work, which is a most definite turn-off.&lt;/p&gt;
+&lt;p&gt;http://plugcomputer.org/plugforum/index.php?topic=412.0&lt;/p&gt;
+&lt;p&gt;http://www.linux.com/community/forums?func=view&amp;amp;catid=25&amp;amp;id=2901&lt;/p&gt;
+&lt;p&gt;But first things first.
+Need to see how good the Debian installation that's supposed to come wuth the device is, and maybe move to an USB stick.&lt;/p&gt;</summary></entry></feed>

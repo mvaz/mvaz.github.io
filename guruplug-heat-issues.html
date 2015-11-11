@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>GuruPlug heat issues</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Brain log Full Atom Feed" />
+        <link href="/feeds/guruplug-linux-debian.atom.xml" type="application/atom+xml" rel="alternate" title="Brain log Categories Atom Feed" />
+</head>
+<body>
+
+    <div class="main-nav-container">
+
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-lg-2-3">
+                <div class="main-nav">
+                    <ul class="main-nav-list">
+                        <li class="main-nav-item"><a href="/" class="pure-menu-link">Brain log</a></li>
+
+                        <li class="main-nav-item"><a href="/category/example.html" class="pure-menu-link">Example</a></li>
+                        <li class="main-nav-item"><a href="/category/guruplug-linux.html" class="pure-menu-link">guruplug linux</a></li>
+                        <li class="main-nav-item active"><a href="/category/guruplug-linux-debian.html" class="pure-menu-link">guruplug linux debian</a></li>
+                        <li class="main-nav-item"><a href="/category/misc.html" class="pure-menu-link">misc</a></li>
+                        <li class="main-nav-item"><a href="/category/textmate-tumblr.html" class="pure-menu-link">textmate, tumblr</a></li>
+                        <li class="main-nav-item"><a href="/category/upnp-linux.html" class="pure-menu-link">upnp, linux</a></li>
+                    </ul>
+                </div>
+             </div>
+
+             <div class="pure-u-1 pure-u-lg-1-3"></div>
+        </div>
+
+    </div>
+
+
+<div class="page-container">
+    <div class="entry-content">
+        <div class="post-meta pure-g">
+            <div class="pure-u-3-4 meta-data">
+                <a href="/category/guruplug-linux-debian.html" class="category">guruplug linux debian</a><br />
+
+                <a class="author" href="/author/miguel-vaz.html">Miguel Vaz</a>
+                &mdash; <abbr title="2012-11-23T10:20:00+01:00">Fri 23 November 2012</abbr>
+            </div>
+        </div>
+    </div>
+
+    <div class="article-header-container">
+        <div class="background-image-container">
+
+            <div class="background-image-small">
+                <div class="title-container">
+                    <h1>GuruPlug heat issues</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="entry-content">
+        <p>My GuruPlug has arrived! Yay!
+Soon I'll be replacing my NSLU2 with it, but some clouds are shadowing the horizon.
+I didn't have the time to set it up.
+Debian 5.03 (lenny) is pre-installed, but only on the device's flash, whose 512MB will probably not suffice to all I want it to do.</p>
+<p><code>
+Leporello:~$ ssh root@192.168.1.1
+root@192.168.1.1's password: 
+Linux sheevaplug-debian 2.6.32-00007-g56678ec #1 PREEMPT Mon Feb 8 03:49:55 PST 2010 armv5tel</p>
+<p>The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.</p>
+<p>Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Fri Jan  1 09:19:04 2010 from 192.168.0.2
+sheevaplug-debian:~# uname -a
+Linux sheevaplug-debian 2.6.32-00007-g56678ec #1 PREEMPT Mon Feb 8 03:49:55 PST 2010 armv5tel GNU/Linux
+sheevaplug-debian:~# cat /etc/debian_version 
+5.0.3
+</code></p>
+<p>Sad thing is, I don't have the time to make all the decisions I need, like "do I need to update U-BOOT?" or "Better to install from scratch or take the
+already working Debian installation on my Slug?", like <a href="http://www.cyrius.com/debian/nslu2/sheevaplug-migration.html">Martin Michlmayr</a> suggests?</p>
+<p>On top of that, many users are reporting heat issues, with their GuruPlug Plus even stopping to work with gigabit ethernet plugged in (the photos are very impressive).</p>
+<p>http://plugcomputer.org/plugforum/index.php?topic=1735.60</p>
+<p>http://www.sheevaplug.de/forum/35-hardware/1744-thermische-probleme.html</p>
+<p>New IT is <a href="http://www.newit.co.uk/forum/index.php/topic,419.0.html">suggesting</a> that people stick to 100MB ethernet (wish would mean that I'm on the clear side with
+my non-Gb GuruPlug Standard), but it is <a href="http://www.newit.co.uk/forum/index.php/topic,423.0.html">not a safe solution</a>.</p>
+<p>Problems in the components and the montage seem to be the cause as the pictures <a href="http://guruplug.daloo.de">here</a> document.
+Anyway, my first test will simply be to turn it on for a couple of days.
+If it's safe, I'll proceed... otherwise have to choose between sending it back to NewIT, selling it, or hacking it.</p>
+    </div>
+
+    <footer>
+        <div class="pure-g post-footer">
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="pure-g poster-info">
+                    <div class="pure-u-3-4">
+                        <h3 class="author-name"><a href="/author/miguel-vaz.html">Miguel Vaz</a></h3>
+                        <p class="author-description">
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </footer>
+
+
+</div>
+
+
+</body>
+</html>

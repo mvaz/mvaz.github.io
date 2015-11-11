@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Brain log</title><link href="/" rel="alternate"></link><link href="/feeds/textmate-tumblr.atom.xml" rel="self"></link><id>/</id><updated>2011-11-23T10:20:00+01:00</updated><entry><title>First post or blogging from TextMate</title><link href="/first-post-or-blogging-from-textmate.html" rel="alternate"></link><updated>2011-11-23T10:20:00+01:00</updated><author><name>Miguel Vaz</name></author><id>tag:,2011-11-23:first-post-or-blogging-from-textmate.html</id><summary type="html">&lt;p&gt;I used to have a Wordpress blog, bug soon got tired of all its features.
+It's too bloated for my taste, and wouldn't blend in with a normal website, which is what I'd like to embed this blog into,
+as &lt;a href="http://adrifolio.tumblr.com/post/487702548/how-to-embed-tumblr-on-your-website-and-customize-it"&gt;Adrifolio&lt;/a&gt; explains.
+So this is why I'm using &lt;strong&gt;tumblr&lt;/strong&gt; now.&lt;/p&gt;
+&lt;p&gt;I'm still setting up the environment, syntax highlighting still broken in &lt;a href="http://macromates.com"&gt;TextMate&lt;/a&gt;, and not getting the same nice preview results as &lt;a href="http://blog.timgourley.com/post/469491122/tumblr-from-textmate"&gt;timgurley&lt;/a&gt;.
+Maybe if I write the posts in &lt;em&gt;HTML&lt;/em&gt;, but was thinking of using &lt;em&gt;Markdown&lt;/em&gt; for the moment.
+Anyway, kudos to &lt;a href="http://mwunsch.tumblr.com/post/441371943/tumblr-rb"&gt;mwunsch&lt;/a&gt;, because the ruby &lt;a href="http://github.com/mwunsch/tumblr"&gt;gem&lt;/a&gt; is pretty cool and easy to use.&lt;/p&gt;</summary></entry></feed>
