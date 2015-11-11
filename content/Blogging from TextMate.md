@@ -1,6 +1,6 @@
 Title: First post or blogging from TextMate
 Date: 2011-11-23 10:20
-Category: textmate, tumblr
+Category: Blog
 
 I used to have a Wordpress blog, bug soon got tired of all its features.
 It's too bloated for my taste, and wouldn't blend in with a normal website, which is what I'd like to embed this blog into,

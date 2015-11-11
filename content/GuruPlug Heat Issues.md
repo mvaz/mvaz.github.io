@@ -1,6 +1,6 @@
 Title: GuruPlug heat issues
 Date: 2012-11-23 10:20
-Category: guruplug linux debian
+Category: Linux
 
 My GuruPlug has arrived! Yay!
 Soon I'll be replacing my NSLU2 with it, but some clouds are shadowing the horizon.

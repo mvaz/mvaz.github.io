@@ -1,6 +1,6 @@
 Title: Preparing for GuruPlug
 Date: 2011-11-10 10:20
-Category: guruplug linux
+Category: Linux
 
 According to news from the guys at [NewIT](http://www.newit.co.uk/forum/index.php/topic,323.msg1595.html), I'll probably be receiving my [GuruPlug Server](http://www.globalscaletechnologies.com/t-guruplugdetails.aspx) in the next days! Yeah!!
 I've been using a NSLU2 with Debian over the last years for video streaming, file sharing and torrent downloading (only legal ones, of course).
