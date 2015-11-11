@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Notebook test</title>
+        <title>Data Munging</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="/theme/css/main.css" />
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Brain log Full Atom Feed" />
-        <link href="/feeds/misc.atom.xml" type="application/atom+xml" rel="alternate" title="Brain log Categories Atom Feed" />
+        <link href="/feeds/data-science.atom.xml" type="application/atom+xml" rel="alternate" title="Brain log Categories Atom Feed" />
 </head>
 <body>
 
@@ -22,10 +22,10 @@
                         <li class="main-nav-item"><a href="/" class="pure-menu-link">Brain log</a></li>
 
                         <li class="main-nav-item"><a href="/category/blog.html" class="pure-menu-link">Blog</a></li>
-                        <li class="main-nav-item"><a href="/category/data-science.html" class="pure-menu-link">Data science</a></li>
+                        <li class="main-nav-item active"><a href="/category/data-science.html" class="pure-menu-link">Data science</a></li>
                         <li class="main-nav-item"><a href="/category/example.html" class="pure-menu-link">Example</a></li>
                         <li class="main-nav-item"><a href="/category/linux.html" class="pure-menu-link">Linux</a></li>
-                        <li class="main-nav-item active"><a href="/category/misc.html" class="pure-menu-link">misc</a></li>
+                        <li class="main-nav-item"><a href="/category/misc.html" class="pure-menu-link">misc</a></li>
                     </ul>
                 </div>
              </div>
@@ -40,10 +40,10 @@
     <div class="entry-content">
         <div class="post-meta pure-g">
             <div class="pure-u-3-4 meta-data">
-                <a href="/category/misc.html" class="category">misc</a><br />
+                <a href="/category/data-science.html" class="category">Data science</a><br />
 
                 <a class="author" href="/author/miguel-vaz.html">Miguel Vaz</a>
-                &mdash; <abbr title="2015-11-11T00:44:34+01:00">Wed 11 November 2015</abbr>
+                &mdash; <abbr title="2015-11-11T22:40:34+01:00">Wed 11 November 2015</abbr>
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@
 
             <div class="background-image-small">
                 <div class="title-container">
-                    <h1>Notebook test</h1>
+                    <h1>Data Munging</h1>
                 </div>
             </div>
         </div>
@@ -128,46 +128,208 @@
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="This-is-a-test">This is a test<a class="anchor-link" href="#This-is-a-test">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>With a formula
-$$x = x + 1$$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>and some code</p>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">&#39;train.csv&#39;</span><span class="p">,</span> <span class="n">nrows</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Id</th>
+      <th>Feature_1</th>
+      <th>Feature_2</th>
+      <th>Feature_3</th>
+      <th>Feature_4</th>
+      <th>Feature_5</th>
+      <th>Feature_6</th>
+      <th>Feature_7</th>
+      <th>Feature_8</th>
+      <th>Feature_9</th>
+      <th>...</th>
+      <th>Ret_175</th>
+      <th>Ret_176</th>
+      <th>Ret_177</th>
+      <th>Ret_178</th>
+      <th>Ret_179</th>
+      <th>Ret_180</th>
+      <th>Ret_PlusOne</th>
+      <th>Ret_PlusTwo</th>
+      <th>Weight_Intraday</th>
+      <th>Weight_Daily</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>8</td>
+      <td>NaN</td>
+      <td>75751</td>
+      <td>0.2254</td>
+      <td>11</td>
+      <td>...</td>
+      <td>-0.002688</td>
+      <td>0.002246</td>
+      <td>-0.000838</td>
+      <td>-6.953224e-04</td>
+      <td>0.000003</td>
+      <td>-0.001974</td>
+      <td>-0.019512</td>
+      <td>0.028846</td>
+      <td>1251507.965681</td>
+      <td>1564384.957101</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>3</td>
+      <td>0.388896</td>
+      <td>17369</td>
+      <td>0.0166</td>
+      <td>13</td>
+      <td>...</td>
+      <td>-0.000129</td>
+      <td>0.000123</td>
+      <td>0.000248</td>
+      <td>3.315418e-07</td>
+      <td>0.000003</td>
+      <td>0.000027</td>
+      <td>-0.002939</td>
+      <td>-0.010253</td>
+      <td>1733950.349065</td>
+      <td>2167437.936331</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>NaN</td>
+      <td>-0.696727</td>
+      <td>0.739591</td>
+      <td>-0.167928</td>
+      <td>9</td>
+      <td>0.471947</td>
+      <td>8277</td>
+      <td>0.3650</td>
+      <td>9</td>
+      <td>...</td>
+      <td>-0.000524</td>
+      <td>-0.000394</td>
+      <td>0.000116</td>
+      <td>5.322557e-04</td>
+      <td>0.000274</td>
+      <td>0.000784</td>
+      <td>-0.024791</td>
+      <td>0.015711</td>
+      <td>1529197.383151</td>
+      <td>1911496.728938</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>NaN</td>
+      <td>-0.694350</td>
+      <td>1.568248</td>
+      <td>0.479073</td>
+      <td>5</td>
+      <td>0.120653</td>
+      <td>22508</td>
+      <td>0.2654</td>
+      <td>13</td>
+      <td>...</td>
+      <td>0.000346</td>
+      <td>-0.000090</td>
+      <td>0.000288</td>
+      <td>-1.281102e-04</td>
+      <td>0.000074</td>
+      <td>0.000341</td>
+      <td>-0.005680</td>
+      <td>-0.002190</td>
+      <td>1711569.423695</td>
+      <td>2139461.779618</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>6</td>
+      <td>-1.736489</td>
+      <td>2.765531</td>
+      <td>1.245280</td>
+      <td>7</td>
+      <td>4.866985</td>
+      <td>22423</td>
+      <td>0.2138</td>
+      <td>13</td>
+      <td>...</td>
+      <td>-0.001235</td>
+      <td>0.000027</td>
+      <td>0.002449</td>
+      <td>8.619882e-06</td>
+      <td>0.001209</td>
+      <td>-0.000004</td>
+      <td>0.036104</td>
+      <td>-0.026552</td>
+      <td>1267270.264754</td>
+      <td>1584087.830943</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 211 columns</p>
+</div>
+</div>
+
+</div>
+
 </div>
 </div>
 
